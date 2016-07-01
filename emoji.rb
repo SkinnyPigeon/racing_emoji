@@ -13,4 +13,10 @@ class Emoji
     sleep(0.1)
   end
 
+  def has_won?
+    return true if @position == 10
+  else
+    return false
+  end
+
 end

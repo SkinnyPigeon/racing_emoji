@@ -22,5 +22,8 @@ class TestEmoji < MiniTest::Test
   #   assert_equal( 1, @dave.position)
   # end
 
+  def test_can_win
+    assert_equal( false, @dave.has_won? )
+  end
 
 end
