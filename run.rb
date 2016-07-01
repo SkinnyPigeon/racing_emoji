@@ -1,6 +1,6 @@
-require_realtive('emoji')
-require_realtive('track')
-require_realtive('race')
+require_relative('emoji')
+require_relative('track')
+require_relative('race')
 
 @dave = Emoji.new( "😏" )
 @track = Track.new
@@ -12,5 +12,6 @@ while @dave.has_won? == false
 
   system("clear")
   print @track.track
+  
 
 end
