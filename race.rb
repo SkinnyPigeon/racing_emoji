@@ -14,5 +14,11 @@ class Race
     return @track.track[0]
   end
 
+  def go
+    @track.track.delete_at( @emoji.position )
+    @emoji.move
+    @track.track.insert( @emoji.position, @emoji.icon )
+  end
+
 
 end
