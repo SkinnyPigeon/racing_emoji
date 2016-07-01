@@ -9,9 +9,9 @@ class Emoji
   end
 
   def move
-    spaces = rand(1..2)
+    spaces = rand(1..3)
     @position += spaces
-    sleep(0.2)
+    sleep(0.1)
   end
 
   def has_won?
