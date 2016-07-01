@@ -8,7 +8,7 @@ require_relative('../track')
 class TestRace < MiniTest::Test
 
   def setup
-    @dave = Emoji.new( "😏" )
+    @dave = Emoji.new( "😏", "dave" )
     @track = Track.new
     @race = Race.new( @track, @dave)
   end

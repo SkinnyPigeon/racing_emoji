@@ -23,6 +23,8 @@ class TestEmoji < MiniTest::Test
   # end
 
   def test_can_win
+    binding.pry
+    nil
     assert_equal( false, @dave.has_won? )
   end
 

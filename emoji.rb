@@ -1,10 +1,11 @@
 class Emoji
 
-  attr_accessor( :icon, :position )
+  attr_accessor( :icon, :position, :name )
 
-  def initialize( icon )
+  def initialize( icon, name )
     @icon = icon
     @position = 0
+    @name = name
   end
 
   def move
@@ -14,7 +15,7 @@ class Emoji
   end
 
   def has_won?
-    return true if @position >= 21
+    return true if @position >= 41
   else
     return false
   end
