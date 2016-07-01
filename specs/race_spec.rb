@@ -8,13 +8,15 @@ require_relative('../track')
 class TestRace < MiniTest::Test
 
   def setup
-    @dave = Emjoi.new( "😏" )
+    @dave = Emoji.new( "😏" )
     @track = Track.new
     @race = Race.new( @track, @dave)
   end
 
   def test_track_has_emoji
-    assert_equal( "😏", @track.spawn)
+    assert_equal( "😏", @race.spawn)
   end
+
+
 
 end
