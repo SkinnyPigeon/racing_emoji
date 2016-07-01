@@ -14,8 +14,6 @@ class TestRace < MiniTest::Test
   end
 
   def test_track_has_emoji
-    # binding.pry
-    # nil
     assert_equal( "😏", @race.spawn)
   end
 

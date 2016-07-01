@@ -10,11 +10,11 @@ class Emoji
   def move
     spaces = rand(1..2)
     @position += spaces
-    sleep(0.1)
+    sleep(0.2)
   end
 
   def has_won?
-    return true if @position == 10
+    return true if @position >= 21
   else
     return false
   end

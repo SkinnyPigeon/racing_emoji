@@ -11,7 +11,8 @@ require_relative('race')
 while @dave.has_won? == false
 
   system("clear")
-  print @track.track
-  
+  print @track.track.compact.join( " " )
+  puts
+  @race.go
 
 end
