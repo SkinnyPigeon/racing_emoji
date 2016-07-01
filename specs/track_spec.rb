@@ -10,6 +10,8 @@ class TestTrack < MiniTest::Test
   end
 
   def test_track_length
+    # binding.pry
+    # nil
     assert_equal( 10, @track.length )
   end
 
