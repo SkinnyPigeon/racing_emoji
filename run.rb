@@ -49,21 +49,21 @@ while @dave.has_won? == false &&
 
 
   system("clear")
-  print "1" + @track.track.compact.join( " " ) + "*"
+  print "1" + @track.track.compact.join( " " ) + " *"
   puts
-  print "2" + @track2.track.compact.join( " " ) + "F"
+  print "2" + @track2.track.compact.join( " " ) + " F"
   puts
-  print "3" + @track3.track.compact.join( " " ) + "I"
+  print "3" + @track3.track.compact.join( " " ) + " I"
   puts
-  print "4" + @track4.track.compact.join( " " ) + "N"
+  print "4" + @track4.track.compact.join( " " ) + " N"
   puts
-  print "5" + @track5.track.compact.join( " " ) + "I"
+  print "5" + @track5.track.compact.join( " " ) + " I"
   puts
-  print "6" + @track6.track.compact.join( " " ) + "S"
+  print "6" + @track6.track.compact.join( " " ) + " S"
   puts
-  print "7" + @track7.track.compact.join( " " ) + "H"
+  print "7" + @track7.track.compact.join( " " ) + " H"
   puts
-  print "8" + @track8.track.compact.join( " " ) + "*"
+  print "8" + @track8.track.compact.join( " " ) + " *"
   puts
   @race.go
   @race2.go
