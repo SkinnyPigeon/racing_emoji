@@ -65,6 +65,7 @@ while @dave.has_won? == false &&
   puts
   print "8" + @track8.track.compact.join( " " ) + " *"
   puts
+  puts
   @race.go
   @race2.go
   @race3.go
