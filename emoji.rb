@@ -15,7 +15,7 @@ class Emoji
   end
 
   def has_won?
-    return true if @position >= 41
+    return true if @position >= 42
   else
     return false
   end
